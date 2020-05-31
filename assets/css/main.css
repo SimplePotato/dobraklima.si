@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/klima_blizu-darker.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1520,10 +1520,24 @@ input, select, textarea {
 
 /* List */
 
+
 	ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
+
+	ul.znamkeklim {
+		margin-top: 1em;
+		column-count: 2;
+		list-style: none;
+		padding-left: 0em;
+	}
+
+	ul.znamkeklim img {
+		height: auto;
+		width: 250px;
+	}
+
 
 		ul li {
 			padding-left: 1.5em;
@@ -1844,7 +1858,7 @@ input, select, textarea {
 			background: #fff;
 			padding: 3em;
 		}
-/* slika in ozadje dva pod klimo */
+/* slika in ozadje dva ki sedita pod klimo za mizo */
 			.box.style1 .image {
 				display: block;
 				position: absolute ;
@@ -2455,6 +2469,17 @@ input, select, textarea {
 			}
 
 		/* List */
+
+		ul.znamkeklim {
+			margin-top: 1em;
+			column-count: 1;
+			list-style: none;
+			padding-left: 0em;
+		}
+	
+		ul.znamkeklim img {
+			height: auto;
+			width: 200px;
 
 			ul li {
 				padding-left: 0.5em;
